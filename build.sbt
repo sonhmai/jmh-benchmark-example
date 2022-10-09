@@ -6,6 +6,7 @@ ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
 
 lazy val root = (project in file("."))
+  .enablePlugins(JmhPlugin)
   .settings(
     name := "jmh-benchmark-example",
     libraryDependencies += scalaTest % Test
