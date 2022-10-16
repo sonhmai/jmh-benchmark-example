@@ -1,4 +1,4 @@
-package example
+package example.minstack
 
 class MinStackArrayDeque() extends MinStack {
 

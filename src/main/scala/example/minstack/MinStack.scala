@@ -1,4 +1,4 @@
-package example
+package example.minstack
 
 trait MinStack {
   // key insight is to remember the min at each step of the stack

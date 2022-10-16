@@ -1,10 +1,9 @@
 package benchmark
 
+import example.minstack.{MinStack, MinStackArrayDeque, MinStackLinkedBlockingDeque}
 import org.openjdk.jmh.annotations.{Benchmark, BenchmarkMode, Mode, OutputTimeUnit}
 
 import java.util.concurrent.TimeUnit
-import example.{MinStack, MinStackArrayDeque, MinStackLinkedBlockingDeque}
-
 import scala.util.Random
 
 @OutputTimeUnit(TimeUnit.MINUTES)
